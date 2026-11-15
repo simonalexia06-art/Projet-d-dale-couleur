@@ -7,12 +7,9 @@
    ========================================================== */
 
 /* ---------- Polices (dossier fonts/) ---------- */
-@font-face { font-family: "Chorus";       src: url("fonts/texgyrechorus-mediumitalic.otf") format("opentype"); font-weight: 400; font-display: swap; }
-@font-face { font-family: "Poppins";      src: url("fonts/Poppins-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
-@font-face { font-family: "Poppins";      src: url("fonts/Poppins-Medium.ttf")  format("truetype"); font-weight: 500; font-display: swap; }
-@font-face { font-family: "Poppins";      src: url("fonts/Poppins-Bold.ttf")    format("truetype"); font-weight: 600 800; font-display: swap; }
-@font-face { font-family: "Big Shoulders"; src: url("fonts/BigShoulders-Regular.ttf") format("truetype"); font-weight: 100 500; font-display: swap; }
-@font-face { font-family: "Big Shoulders"; src: url("fonts/BigShoulders-Bold.ttf")    format("truetype"); font-weight: 600 900; font-display: swap; }
+@font-face { font-family: "Vintage Goods";  src: url("fonts/Vintage_Goods.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Proxima Nova";   src: url("fonts/Proxima_Nova_Regular.otf") format("opentype"); font-weight: 400 800; font-display: swap; }
+@font-face { font-family: "Sugo Pro";       src: url("fonts/Sugo-Pro-Classic-Bold-trial.ttf") format("truetype"); font-weight: 400 900; font-display: swap; }
 @font-face { font-family: "Instrument Serif"; src: url("fonts/InstrumentSerif-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
 
 /* ---------- Variables ---------- */
@@ -26,9 +23,9 @@
 
   /* Typographies : script ≈ Vintage Goods, body ≈ Proxima Nova,
      label ≈ Sugo Display, serif = Instrument Serif */
-  --font-script: "Chorus", "Palatino Linotype", Georgia, serif;
-  --font-body:   "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-label:  "Big Shoulders", "Arial Narrow", Impact, sans-serif;
+  --font-script: "Vintage Goods", "Palatino Linotype", Georgia, serif;
+  --font-body:   "Proxima Nova", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-label:  "Sugo Pro", "Arial Narrow", Impact, sans-serif;
   --font-serif:  "Instrument Serif", Georgia, serif;
 
   /* Marge latérale : 64px, centrée au-delà de 1312px de contenu */
